@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/round_corners_dialog"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/winner_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:paddingEnd="50dp"
+        android:paddingStart="50dp"
+        android:paddingBottom="50dp"
+        android:src="@drawable/x"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="@string/start_score_o" />
+
+    <TextView
+        android:id="@+id/winner_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/winner_title"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+</LinearLayout>

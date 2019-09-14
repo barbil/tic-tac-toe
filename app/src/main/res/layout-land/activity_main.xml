@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/colorPrimary">
+
+    <fragment
+        android:id="@+id/play_field_fragment"
+        android:name="com.hfad.tictactoe.TicTacToeFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:columnCount="3"
+        android:numColumns="3"
+        android:rowCount="3"></fragment>
+
+    <fragment
+        android:id="@+id/result_keeper_fragment"
+        android:name="com.hfad.tictactoe.ResultKeeperFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_weight="1"></fragment>
+
+
+</LinearLayout>
